@@ -1,0 +1,8 @@
+(1) Active Employee:-
+SUM([Employee Count])-SUM([Attrition count])
+
+(2) Attrition count
+IF [Attrition]='Yes' THEN 1 ELSE 0 END
+
+(3)Attrition_rate:-
+SUM([Attrition count])/SUM([Employee Count])
